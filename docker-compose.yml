@@ -1,0 +1,11 @@
+services:
+  rag-chain:
+    build: .
+    container_name: rag_chain_app
+    ports:
+      - "8000:8000"
+    env_file:
+      - /Users/pablolastrabachmann/DiploGenAI/.env
+    restart: unless-stopped
+
+

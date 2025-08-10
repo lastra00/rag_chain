@@ -45,3 +45,6 @@ Thumbs.db
 
 # Local config files
 *.local
+
+#pdfs files
+*.pdf
