@@ -79,16 +79,5 @@ Notas Fly.io:
 
 - Error de streaming: instalar `sse-starlette` (ya incluido en `requirements.txt`).
 
-## Git: ignorar el PDF (opcional)
 
-Si no quieres commitear el PDF, añade al `.gitignore`:
-
-```
-Contrato de arriendo departamento notariado - Pablo Lastra.PDF
-```
-
-o bien para todos los PDF de esta carpeta:
-
-```
-*.pdf
 ```
